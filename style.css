@@ -1,0 +1,216 @@
+.container-sec {
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 2) , rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 2)),  url(images/netflixback.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    width: 100%;
+
+}
+
+
+.logo-img {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+}
+
+.custom-button {
+    background-color: rgb(219, 16, 16);
+}
+
+.center-container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    max-width: 50%;
+  }
+
+.contain-1 {
+    margin-top: 12%;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+.my-p {
+    font-size: large;
+    font-weight: 900;
+    line-height: 1.6;
+    
+}
+
+.input1 {
+    height: 60px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+    border-color: aliceblue;
+    
+}
+
+.button1 {
+    height: 60px;
+    width: 200px;
+    margin-left: 5px;
+    font-weight: 900;
+    line-height: 1;
+    background-color: rgb(219, 16, 16);;
+
+
+}
+
+.dark-demarcation {
+    background-color: #514e53;
+    height: 1vh;
+}
+
+
+.sec-2 {
+    background-color: black;
+    height: 70vh;
+}
+
+.sec2-h1 {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.sec2-contain {
+    padding-top: 5%;
+}
+
+.sec-3 {
+    background-color: black;
+    height: 70vh;
+}
+
+.sec-4 {
+    background-color: black;
+    height: 70vh;
+}
+
+.sec4-h1 {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.sec-5 {
+    background-color: black;
+    height: 70vh;
+}
+
+
+.sec-6 {
+    background-color: black;
+    height: 130vh;
+}
+
+.rectangle-box {
+    height: 70px;
+    background-color: #2f2e2e;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.net1 {
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 900;
+    line-height: 1.6;
+
+
+}
+
+.net2{
+    color: aliceblue;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: 900;
+    line-height: 1.6;
+    margin-left: auto
+
+}
+
+.sec-6-h1 {
+    padding-bottom: 15px;
+}
+
+.sec-6-div {
+    padding-top: 60px;
+}
+
+.footer {
+    background-color: black;
+    height: 60vh;
+}
+
+.rectangle-box:hover {
+    background-color: #585555;
+    cursor: pointer;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px; /* optional gap between grid items */
+}
+
+@media (max-width: 768px) {
+    .grids {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(15, 1fr);
+    }
+
+    .footer {
+        background-color: black;
+        height: 100vh;
+    }
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.select {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.foot-cont {
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.que-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
